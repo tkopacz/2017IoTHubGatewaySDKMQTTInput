@@ -1,0 +1,36 @@
+{
+  "modules": [
+    {
+      "name": "logger",
+      "loader": {
+        "name": "native",
+        "entrypoint": {
+          "module.path": "logger.dll"
+        }
+      },
+      "args": {
+        "filename": "log.txt"
+      }
+    },
+    {
+      "name": "dotnet_modulecssender",
+      "loader": {
+        "name": "dotnet",
+        "entrypoint": {
+          "assembly.name": "ModuleCSSender",
+          "entry.type": "ModuleCSSender.TKSender"
+        }
+      },
+      "args": {
+        "p1": "module configuration aaaa",
+        "delay":  5000
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "dotnet_modulecssender",
+      "sink": "logger"
+    }
+  ]
+}
