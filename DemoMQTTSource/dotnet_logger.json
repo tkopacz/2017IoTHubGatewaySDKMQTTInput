@@ -50,13 +50,18 @@
       "args": [
         {
           "macAddress": "01:02:03:04:05:06",
-          "deviceId": "PC",
-          "deviceKey": "MKFlutvnHn/WutJkDGbRPZ/PgGSQIKDmOhMtIivt198="
+          "deviceId": "mqttlora01",
+          "deviceKey": "dKT+1sXj6SriIm/9tKvOwxVK6xGB8Di8rnCp4vRvi/A="
         },
         {
-          "macAddress": "00:15:5D:10:EF:02",
-          "deviceId": "PC1",
-          "deviceKey": "P6KCijEnuA8C8xYhx5kkrx1tZIFkxt4xhd7rju+4Q48="
+          "macAddress": "01:02:03:04:05:07",
+          "deviceId": "mqttlora02",
+          "deviceKey": "45Wu4TxkpkwQojUo27+zKHch/gco52ZVdIIalgOp48A="
+        },
+        {
+          "macAddress": "01:02:03:04:05:08",
+          "deviceId": "mqttlora03",
+          "deviceKey": "3OFQ1PG8WzZP4Y6S5j5FOBcZFGlgJbdM/z49F3mHTUg="
         }
       ]
     },
